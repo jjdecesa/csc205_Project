@@ -1,0 +1,38 @@
+<!DOCTYPE=html>
+    <html>
+
+    <head>
+        <title>Course Catalog</title>
+
+        <!-- Add bootstrap and custom style sheets here -->
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+
+    <body>
+        <img id="logo-image" src="images/geneva_logo.png" alt="Geneva Logo">
+        <h1>Geneva Course Catalog</h1>
+
+        <form id="searchform">
+            <input type="text" placeholder="Filtering Text" class="form-control" id="searchbox" name="searchbox">
+        </form>
+
+        <table class="table" id="courseTable"></table>
+
+        <div id="overlay" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeDetails()">&times;</a>
+            <div class="overlay-content">
+                <iframe src="" id="frame"></iframe>
+              </div>
+        </div>
+
+
+        <!-- Add bootstrap and custom JavaScript files here -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/front.js"></script>
+        
+        
+    
+
+    </body>
+
+    </html>
